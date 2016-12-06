@@ -1,0 +1,21 @@
+<templateSet group="user">
+  <template name="fldate" value="&lt;f:format.date format=&quot;$FORMAT$&quot;&gt;$END$&lt;/f:format.date&gt;" description="Fluid - Date" toReformat="false" toShortenFQNames="true">
+    <variable name="FORMAT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fltrans" value="&lt;f:translate key=&quot;$KEY$&quot;&gt;$END$&lt;/f:translate&gt;" description="Fluid - Translate" toReformat="false" toShortenFQNames="true">
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="flif" value="&lt;f:if condition=&quot;$CONDITION$&quot;&gt;&#10;&#9;&lt;f:then&gt;&#10;&#9;&#9;$THEN$&#10;&#9;&lt;/f:then&gt;&#10;&#9;&lt;f:else&gt;&#10;&#9;&#9;$END$&#10;&#9;&lt;/f:else&gt;&#10;&lt;/f:if&gt;" description="Fluid - If" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="THEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

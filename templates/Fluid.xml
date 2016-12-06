@@ -1,0 +1,209 @@
+<templateSet group="Fluid">
+  <template name="fluid_if_simple" value="&lt;f:if condition=&quot;{$CONDITION$}&quot;&gt;&#10;$SELECTION$&#10;&lt;/f:if&gt;" description="Fluid condition simple" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_if_advanced" value="&lt;f:if condition=&quot;{$CONDITION$}&quot;&gt;&#10;&#9;&lt;f:then&gt;&#10;&#9;&#9;$SELECTION$&#10;&#9;&lt;/f:then&gt;&#10;&#9;&lt;f:else&gt;&#10;&#9;&lt;/f:else&gt;&#10;&lt;/f:if&gt;" description="Fluid condition advanced" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_for_simple" value="&lt;f:for each=&quot;{$ITEMS$}&quot; as=&quot;$ITEM$&quot;&gt;&#10;$SELECTION$&#10;&lt;/f:for&gt;" description="Fluid for each simple" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_for_advanced" value="&lt;f:for each=&quot;{$ITEMS$}&quot; as=&quot;$ITEM$&quot; key=&quot;$KEY$&quot; iteration=&quot;$ITERATOR$&quot;&gt;&#10;$SELECTION$&#10;&lt;/f:for&gt;" description="Fluid for each advanced" toReformat="true" toShortenFQNames="true">
+    <variable name="ITEMS" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="ITERATOR" expression="" defaultValue="&quot;iterator&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_alias" value="&lt;f:alias map=&quot;{x: '$FOO$'}&quot;&gt;{$X$}&lt;/f:alias&gt;" description="Single alias" toReformat="true" toShortenFQNames="true">
+    <variable name="FOO" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="X" expression="" defaultValue="&quot;x&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_alias_multiple" value="&lt;f:alias map=&quot;{x: $FOO$, y: $BAR$}&quot;&gt;&#10;&#9;{x.name} or {y}&#10;&lt;/f:alias&gt;&#10;" description="Multiple mappings" toReformat="true" toShortenFQNames="true">
+    <variable name="FOO" expression="" defaultValue="&quot;foo&quot;" alwaysStopAt="true" />
+    <variable name="BAR" expression="" defaultValue="&quot;bar&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_cObject_simple" value="&lt;f:cObject typoscriptObjectPath=&quot;$TSOBJECTPATH$&quot; /&gt;" description="Render lib object" toReformat="true" toShortenFQNames="true">
+    <variable name="TSOBJECTPATH" expression="" defaultValue="&quot;lib.menu.navigation&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_cObject_advanced" value="&lt;f:cObject typoscriptObjectPath=&quot;$TSOBJECTPATH$&quot; data=&quot;{$DATA$}&quot; current=&quot;{$CURRENT$}&quot; /&gt;" description="Specify cObject data &amp; current value" toReformat="true" toShortenFQNames="true">
+    <variable name="TSOBJECTPATH" expression="" defaultValue="&quot;lib.menu.navigation&quot;" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="&quot;data&quot;" alwaysStopAt="true" />
+    <variable name="CURRENT" expression="" defaultValue="&quot;current&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_comment" value="&lt;f:comment&gt;&#10;$SELECTION$&#10;&lt;/f:comment&gt;" description="Comment out fluid code" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_debug_simple" value="&lt;f:debug&gt;{$VAR$}&lt;/f:debug&gt;" description="Debug code" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_debug_advanced" value="&lt;f:debug title=&quot;$TITLE$&quot; maxDepth=&quot;$DEPTH$&quot;&gt;{$VAR$}&lt;/f:debug&gt;" description="Debug code advanced" toReformat="true" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="&quot;My Debug Title&quot;" alwaysStopAt="true" />
+    <variable name="DEPTH" expression="" defaultValue="&quot;5&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_simple" value="&lt;f:form action=&quot;$ACTION$&quot;&gt;&#10;&#9;$SELECTION$&#10;&lt;/f:form&gt;" description="Simple form" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="&quot;action&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_advanced" value="&lt;f:form action=&quot;$ACTION$&quot; controller=&quot;$CONTROLLER$&quot; package=&quot;$PACKAGE$&quot; enctype=&quot;$ENC_TYPE$&quot;&gt;&#10;&#9;$SELECTION$&#10;&lt;/f:form&gt;" description="Advanced form" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="&quot;action&quot;" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="&quot;controller&quot;" alwaysStopAt="true" />
+    <variable name="PACKAGE" expression="" defaultValue="&quot;package&quot;" alwaysStopAt="true" />
+    <variable name="ENC_TYPE" expression="" defaultValue="&quot;multipart/form-data&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_image_simple" value="&lt;f:image src=&quot;$SRC$&quot; alt=&quot;$ALT$&quot; /&gt;" description="Simple image" toReformat="true" toShortenFQNames="true">
+    <variable name="SRC" expression="" defaultValue="&quot;EXT:myext/Resources/Public/typo3_logo.png&quot;" alwaysStopAt="true" />
+    <variable name="ALT" expression="" defaultValue="&quot;alt text&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_image_fal" value="&lt;f:image src=&quot;$refUid$&quot; alt=&quot;$ALT$&quot; treatIdAsReference=&quot;1&quot; /&gt;" description="FAL image" toReformat="true" toShortenFQNames="true">
+    <variable name="refUid" expression="" defaultValue="&quot;refUid&quot;" alwaysStopAt="true" />
+    <variable name="ALT" expression="" defaultValue="&quot;alt text&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_render_partial" value="&lt;f:render partial=&quot;$PARTIAL$&quot; arguments=&quot;$ARGUMENTS$&quot; /&gt;" description="Rendering a partial" toReformat="true" toShortenFQNames="true">
+    <variable name="PARTIAL" expression="" defaultValue="&quot;SomePartial&quot;" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="&quot;{foo: bar}&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_render_section" value="&lt;f:render section=&quot;$SECTION$&quot; arguments=&quot;$ARGUMENTS$&quot; /&gt;" description="Rendering a section" toReformat="true" toShortenFQNames="true">
+    <variable name="SECTION" expression="" defaultValue="&quot;SectionName&quot;" alwaysStopAt="true" />
+    <variable name="ARGUMENTS" expression="" defaultValue="&quot;{foo: bar}&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_switch_case" value="&lt;f:switch expression=&quot;{$VAR$}&quot;&gt;&#10;&#9;&lt;f:case value=&quot;$VAL$&quot;&gt;$LABEL$&lt;/f:case&gt;&#10; &#9;&lt;f:case default=&quot;$VAL$&quot;&gt;$LABEL$&lt;/f:case&gt;&#10; &lt;/f:switch&gt;" description="Fluid switch/case" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="&quot;label&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_button" value="&lt;f:form.button type=&quot;$TYPE$&quot; name=&quot;$NAME$&quot;&gt;$SELECTION$&lt;/f:form.button&gt;" description="Form button" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="enum(&quot;reset&quot;, &quot;submit&quot;)" defaultValue="&quot;submit&quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_checkbox" value="&lt;f:form.checkbox name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;" description="Form checkbox" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;someValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_hidden" value="&lt;f:form.hidden name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;" description="Form hidden" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;someValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_password" value="&lt;f:form.password name=&quot;$NAME$&quot; /&gt;" description="Form password" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_radio" value="&lt;f:form.radio name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;" description="Form radio" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;someValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_select" value="&lt;f:form.select name=&quot;$NAME$&quot; options=&quot;$OPTIONS$&quot; /&gt;" description="Form select" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="OPTIONS" expression="" defaultValue="&quot;{payPal: 'PayPal International Services', visa: 'VISA Card'}&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_submit" value="&lt;f:form.submit name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;" description="Form submit" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;someValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_textarea" value="&lt;f:form.textarea name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;" description="Form textarea" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;someValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_textfield" value="&lt;f:form.textfield name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;" description="Form textfield" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;someValue&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_upload" value="&lt;f:form.upload name=&quot;$NAME$&quot; /&gt;" description="Form upload" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;myCheckBox&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_form_validationResults" value="&lt;f:form.validationResults&gt;&#10;&#9;&lt;f:if condition=&quot;{$VALIDATIONRESULTS$.flattenedErrors}&quot;&gt;&#10; &#9;&#9;&lt;ul class=&quot;errors&quot;&gt;&#10; &#9;&#9;&#9;&lt;f:for each=&quot;{$VALIDATIONRESULTS$.flattenedErrors}&quot; as=&quot;errors&quot; key=&quot;propertyPath&quot;&gt;&#10; &#9;&#9;&#9;&lt;li&gt;{propertyPath}&#10; &#9;&#9;&#9;&#9;&lt;ul&gt;&#10; &#9;&#9;&#9;&#9;&#9;&lt;f:for each=&quot;{errors}&quot; as=&quot;error&quot;&gt;&#10; &#9;&#9;&#9;&#9;&#9;&lt;li&gt;{error.code}: {error}&lt;/li&gt;&#10; &#9;&#9;&#9;&#9;&#9;&lt;/f:for&gt;&#10; &#9;&#9;&#9;&#9;&lt;/ul&gt;&#10; &#9;&#9;&#9;&lt;/li&gt;&#10;&#9; &#9;&#9;&lt;/f:for&gt;&#10; &#9;&#9;&lt;/ul&gt;&#10;&#9;&lt;/f:if&gt;&#10; &lt;/f:form.validationResults&gt;" description="Form validation results" toReformat="true" toShortenFQNames="true">
+    <variable name="VALIDATIONRESULTS" expression="" defaultValue="&quot;validationResults&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="fluid_widget_paginate" value="&lt;f:widget.paginate objects=&quot;{$OBJECTS$}&quot; as=&quot;$POBJECTS$&quot; configuration=&quot;{itemsPerPage: 5, insertAbove: 1, insertBelow: 0, maximumNumberOfLinks: 10}&quot;&gt;&#10;&#9;&lt;f:for each=&quot;{$POBJECTS$}&quot; as=&quot;object&quot;&gt;&#10;&#9;&#10;&#9;&lt;/f:for&gt;&#10;&lt;/f:widget.paginate&gt;" description="Widget: Paginate" toReformat="true" toShortenFQNames="true">
+    <variable name="OBJECTS" expression="" defaultValue="&quot;objects&quot;" alwaysStopAt="true" />
+    <variable name="POBJECTS" expression="" defaultValue="&quot;paginatedObjects&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

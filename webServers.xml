@@ -1,0 +1,21 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0e0950bb-b1b9-4f73-945b-d1dd07232182" name="pcfritz" url="http://www.pcfritz.de/">
+        <fileTransfer host="server1191-han.de-nserver.de" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4ca022b6-ff8b-409a-a51a-1c7bc135c03e" name="vline" url="http://p179918.mittwaldserver.info/">
+        <fileTransfer host="p179918.mittwaldserver.info" port="21">
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ff0afee4-ec13-49c0-b4cd-dd55bd89ef7b" name="vline (1)" url="http://p179918.mittwaldserver.info/">
+        <fileTransfer host="p179918.mittwaldserver.info" port="21" rootFolder="/html/typo3">
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
