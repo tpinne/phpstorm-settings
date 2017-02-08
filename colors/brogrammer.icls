@@ -530,6 +530,22 @@
         <option name="BACKGROUND" value="2b303b" />
       </value>
     </option>
+    <option name="JADE_FILE_PATH">
+      <value>
+        <option name="FOREGROUND" value="924c95" />
+      </value>
+    </option>
+    <option name="JADE_JS_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="3598db" />
+      </value>
+    </option>
+    <option name="JADE_TAG_CLASS">
+      <value>
+        <option name="FOREGROUND" value="ca6acf" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="JS.BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="65737e" />
