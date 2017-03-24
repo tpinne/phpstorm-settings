@@ -532,6 +532,12 @@
         <option name="BACKGROUND" value="2b303b" />
       </value>
     </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="787878" />
+        <option name="BACKGROUND" value="3b3b3b" />
+      </value>
+    </option>
     <option name="JADE_FILE_PATH">
       <value>
         <option name="FOREGROUND" value="924c95" />
