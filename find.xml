@@ -5,7 +5,7 @@
     <option name="wholeWordsOnly" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
-    <option name="FILE_MASK" value="*.twig" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -17,12 +17,12 @@
       <mask>*.mxml</mask>
       <mask>!_variables.scss,!_spacing.scss</mask>
       <mask>*.less</mask>
-      <mask>*.js</mask>
       <mask>*.*</mask>
       <mask>*.</mask>
       <mask>*.php</mask>
       <mask>*.tw</mask>
       <mask>*.twig</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
