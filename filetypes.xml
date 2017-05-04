@@ -13,8 +13,6 @@
       <mapping ext="scssc" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
       <removed_mapping ext="ats" type="TypeScript" />
-      <removed_mapping ext="ts" approved="true" type="TypeScript" />
-      <mapping ext="ts" type="TypoScript File" />
       <mapping ext="xlf" type="XML" />
       <mapping ext="xliff" type="XML" />
     </extensionMap>
