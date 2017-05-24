@@ -5,7 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
-    <option name="FILE_MASK" value="*.twig" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -17,7 +17,6 @@
       <mask>*.mxml</mask>
       <mask>!_variables.scss,!_spacing.scss</mask>
       <mask>*.less</mask>
-      <mask>*.tw</mask>
       <mask>*.js</mask>
       <mask>*.j</mask>
       <mask>*.*</mask>
@@ -29,9 +28,11 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
-      <mask>*.ts</mask>
-      <mask>*.t</mask>
       <mask>*.twig</mask>
+      <mask>*.twi</mask>
+      <mask>*.tw</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
