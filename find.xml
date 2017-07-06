@@ -3,7 +3,7 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
-    <option name="FILE_MASK" value="*.php" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -18,7 +18,6 @@
       <mask>*.j</mask>
       <mask>*.*</mask>
       <mask>*.ph</mask>
-      <mask>*.</mask>
       <mask>*.twig</mask>
       <mask>*.twi</mask>
       <mask>*.tw</mask>
@@ -26,12 +25,14 @@
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
-      <mask>*.ts</mask>
       <mask>*.t</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
       <mask>*.p</mask>
       <mask>*.php</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
