@@ -5,14 +5,8 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="messages.js" />
     <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
       <mask>!_variables.scss,!_spacing.scss</mask>
       <mask>*.less</mask>
       <mask>*.js</mask>
@@ -34,6 +28,15 @@
       <mask>*.</mask>
       <mask>*.html</mask>
       <mask>*.ts</mask>
+      <mask>.ts</mask>
+      <mask>me.ts</mask>
+      <mask>mes.ts</mask>
+      <mask>mess.ts</mask>
+      <mask>messa.ts</mask>
+      <mask>message.ts</mask>
+      <mask>messages.ts</mask>
+      <mask>messages.s</mask>
+      <mask>messages.js</mask>
     </recentFileMasks>
   </component>
 </application>
