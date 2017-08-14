@@ -19,10 +19,6 @@
       <mask>*.scss</mask>
       <mask>*.t</mask>
       <mask>*.htm</mask>
-      <mask>*.p</mask>
-      <mask>*.php</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.html</mask>
       <mask>*.ts</mask>
       <mask>.ts</mask>
@@ -34,6 +30,10 @@
       <mask>messages.ts</mask>
       <mask>messages.s</mask>
       <mask>messages.js</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
