@@ -12,6 +12,7 @@
       <mapping pattern="deploy_test" type="PLAIN_TEXT" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
+      <mapping ext="gql" type="PLAIN_TEXT" />
       <mapping ext="scssc" type="PLAIN_TEXT" />
       <removed_mapping ext="ats" type="TypeScript" />
       <mapping ext="xliff" type="XML" />
