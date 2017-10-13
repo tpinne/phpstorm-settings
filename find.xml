@@ -3,6 +3,7 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
       <mask>*.less</mask>
       <mask>*.js</mask>
@@ -31,9 +32,9 @@
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.p</mask>
+      <mask>*.php</mask>
       <mask>*.j</mask>
       <mask>*.json</mask>
-      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
