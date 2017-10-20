@@ -3,12 +3,12 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.s</mask>
       <mask>*.sc</mask>
       <mask>*.scs</mask>
       <mask>*.scss</mask>
-      <mask>*.t</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
       <mask>*.ts</mask>
@@ -22,18 +22,19 @@
       <mask>messages.s</mask>
       <mask>messages.js</mask>
       <mask>*</mask>
-      <mask>*.p</mask>
-      <mask>*.php</mask>
       <mask>*.json</mask>
       <mask>*.jso</mask>
       <mask>*.js</mask>
       <mask>*.j</mask>
       <mask>*.rw</mask>
       <mask>*.r</mask>
-      <mask>*.</mask>
-      <mask>*.tw</mask>
-      <mask>*.twi</mask>
       <mask>*.twig</mask>
+      <mask>*.twi</mask>
+      <mask>*.tw</mask>
+      <mask>*.t</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
