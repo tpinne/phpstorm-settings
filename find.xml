@@ -3,6 +3,7 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.ts</mask>
@@ -25,8 +26,6 @@
       <mask>*.twi</mask>
       <mask>*.t</mask>
       <mask>*.</mask>
-      <mask>*.p</mask>
-      <mask>*.php</mask>
       <mask>*.tw</mask>
       <mask>*.twig,*</mask>
       <mask>*.twig,*.</mask>
@@ -34,6 +33,8 @@
       <mask>*.twig,*.php</mask>
       <mask>*.twig,</mask>
       <mask>*.twig</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
