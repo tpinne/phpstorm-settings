@@ -3,26 +3,15 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
-      <mask>.ts</mask>
-      <mask>me.ts</mask>
-      <mask>mes.ts</mask>
-      <mask>mess.ts</mask>
-      <mask>messa.ts</mask>
-      <mask>message.ts</mask>
-      <mask>messages.ts</mask>
       <mask>messages.s</mask>
       <mask>messages.js</mask>
-      <mask>*</mask>
-      <mask>*.json</mask>
       <mask>*.jso</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
       <mask>*.rw</mask>
       <mask>*.r</mask>
       <mask>*.twi</mask>
       <mask>*.t</mask>
-      <mask>*.</mask>
       <mask>*.tw</mask>
       <mask>*.twig,*</mask>
       <mask>*.twig,*.</mask>
@@ -34,6 +23,18 @@
       <mask>*.y</mask>
       <mask>*.yml</mask>
       <mask>*.php</mask>
+      <mask>*.j</mask>
+      <mask>*.json</mask>
+      <mask>.json</mask>
+      <mask>pac.json</mask>
+      <mask>packace..json</mask>
+      <mask>packace.json</mask>
+      <mask>packac.json</mask>
+      <mask>package..json</mask>
+      <mask>package.json</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
