@@ -8,12 +8,13 @@
       <mapping ext="variables" type="Less" />
       <mapping ext="sxw" type="Native" />
       <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="deploy_test" type="PLAIN_TEXT" />
+      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
-      <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
-      <mapping ext="gql" type="PLAIN_TEXT" />
+      <mapping pattern="deploy_test" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
+      <mapping ext="graphql" type="PLAIN_TEXT" />
+      <mapping ext="gql" type="PLAIN_TEXT" />
       <mapping ext="scssc" type="PLAIN_TEXT" />
       <removed_mapping ext="ats" type="TypeScript" />
       <mapping ext="xliff" type="XML" />
