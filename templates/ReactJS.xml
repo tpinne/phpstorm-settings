@@ -1,0 +1,3 @@
+<templateSet group="ReactJS">
+  <template name="test" value="test" description="test" toReformat="false" toShortenFQNames="true" />
+</templateSet>
