@@ -3,11 +3,8 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
-      <mask>messages.js</mask>
-      <mask>*.rw</mask>
-      <mask>*.r</mask>
-      <mask>*.twi</mask>
       <mask>*.t</mask>
       <mask>*.tw</mask>
       <mask>*.twig,*</mask>
@@ -20,7 +17,6 @@
       <mask>*.y</mask>
       <mask>*.yml</mask>
       <mask>*.php</mask>
-      <mask>*.j</mask>
       <mask>.json</mask>
       <mask>pac.json</mask>
       <mask>packace..json</mask>
@@ -32,8 +28,13 @@
       <mask>*.jso</mask>
       <mask>*.json</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.</mask>
+      <mask>*.s</mask>
+      <mask>*.sc</mask>
+      <mask>*.scs</mask>
+      <mask>*.scss</mask>
     </recentFileMasks>
   </component>
 </application>
