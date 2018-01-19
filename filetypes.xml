@@ -3,15 +3,16 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping pattern="*.babel.js" type="ECMAScript 6" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping ext="ctx" type="JSON" />
       <mapping pattern="Gruntfile" type="JavaScript" />
       <mapping ext="variables" type="Less" />
       <mapping ext="sxw" type="Native" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".htpasswd" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="CHANGELOG" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="deploy_test" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping ext="erb" type="PLAIN_TEXT" />
       <mapping ext="graphql" type="PLAIN_TEXT" />
       <mapping ext="gql" type="PLAIN_TEXT" />
