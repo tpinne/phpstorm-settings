@@ -3,6 +3,7 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="FILE_MASK" value="*.mustache" />
     <recentFileMasks>
       <mask>*.twig,*</mask>
       <mask>*.twig,*.</mask>
@@ -32,8 +33,8 @@
       <mask>*.</mask>
       <mask>*.ts</mask>
       <mask>*.json</mask>
-      <mask>*.mustache</mask>
       <mask>*.scss</mask>
+      <mask>*.mustache</mask>
     </recentFileMasks>
   </component>
 </application>
