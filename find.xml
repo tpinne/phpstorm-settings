@@ -3,38 +3,5 @@
     <option name="customScope" value="Project and Libraries" />
     <option name="defaultScopeName" value="Project and Libraries" />
     <option name="SEARCH_SCOPE" value="Project and Libraries" />
-    <option name="FILE_MASK" value="*.scss" />
-    <recentFileMasks>
-      <mask>*.twig,*.</mask>
-      <mask>*.twig,*.p</mask>
-      <mask>*.twig,*.php</mask>
-      <mask>*.twig,</mask>
-      <mask>*.twig</mask>
-      <mask>*.p</mask>
-      <mask>*.y</mask>
-      <mask>*.yml</mask>
-      <mask>*.php</mask>
-      <mask>.json</mask>
-      <mask>pac.json</mask>
-      <mask>packace..json</mask>
-      <mask>packace.json</mask>
-      <mask>packac.json</mask>
-      <mask>package..json</mask>
-      <mask>package.json</mask>
-      <mask>*.js*</mask>
-      <mask>*.jso</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
-      <mask>*.s</mask>
-      <mask>*.sc</mask>
-      <mask>*.scs</mask>
-      <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.ts</mask>
-      <mask>*.json</mask>
-      <mask>*.mustache</mask>
-      <mask>*.vue</mask>
-      <mask>*.scss</mask>
-    </recentFileMasks>
   </component>
 </application>
