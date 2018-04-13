@@ -17,7 +17,4 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="Tool_External Tools_Stylelint">
-    <keyboard-shortcut first-keystroke="shift ctrl meta l" />
-  </action>
 </keymap>
